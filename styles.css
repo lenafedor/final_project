@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+.website-header {
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: #001226;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.website-title-short {
+    margin: 0;
+}
+
+.title-short {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.food-menu {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+.home-icon {
+    margin: 0;
+}
+
+.home-icon-icon {
+    margin: 0;
+    display: flex;
+    height: 23px;
+    width: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.image-container {
+    padding-top: 118px;
+    padding-bottom: 108px;
+    background-image: url(home_page_photos/AdobeStock_326009091_copy.jpeg);
+    background-size: cover;
+}
+
+.website-title {
+    margin: 0;
+    top: 163px;
+    font-size: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+.website-sub-title {
+    margin: 0;
+    top: 163px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.food-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 44px;
+}
+
+
+.module-1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 103px;
+    padding-top: 18px;
+}
+
+.arrow-class {
+    display: flex;
+}
+
+.arrow {
+    display: flex;
+
+    padding-right: 9px;
+}
+
+.food-origin-country {
+    margin: 0;
+}
+
+.streetfood-origin {
+    display: inline-block;
+    width: 292px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.streetfood-origin-subtitle {
+    margin: 0;
+}
+
+.streetfood-image {
+    margin: 0;
+    width: 111px;
+    padding-top: 25px;
+}
+
+.food-picture {
+    margin: 0;
+    display: flex;
+    object-fit: cover;
+    height: 245px;
+    width: 258px;
+}
+
+.food-title-and-stars {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.food-title {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.food-subtitle {
+    display: flex;
+    margin: 0;
+}
+
+.website-content {
+    gap: 57px;
+    padding-top: 45px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin: 0;
+    background-color: #001226;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+
+
+
+
+.web-division {
+    display: flex;
+    flex-direction: row;
+    padding-top: 58px;
+    padding-bottom: 100px;
+}
+
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.image-recipe {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 420px;
+}
+
+.recipe-text {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: 238px;
+}
+
+.recipe-title {
+    margin: 0;
+    font-size: 20px;
+}
+
+.recipe-step {
+    margin: 0;
+    font-size: 13px;
+}
+
+.step-number {
+    display: flex;
+    flex-direction: row;
+}
+
+.numbers-columns {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+
+
+
+
+.right-side {
+    width: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-top: 33px;
+    padding-bottom: 35px;
+    padding-left: 46px;
+    box-shadow: 0px 4px 12px #C1C5C9;
+}
+
+.title-and-rate {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.recipe-title-title {
+    margin: 0;
+    font-size: 24px;
+}
+
+.recipe-icons {
+    display: flex;
+    gap: 35px;
+}
+
+.recipe-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+}
+
+.icon {
+    display: flex;
+    object-fit: cover;
+    width: 60px;
+}
+
+.recipe-icon-text {
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+    padding-bottom: 14px;
+    padding-left: 46px;
+    font-size: 13px;
+}
+
+.ingredients {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding-left: 46px;
+}
+
+
+
+
+
+
+.image-recipes {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 243px;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-left: 46px;
+}
+
+.streetfood-description {
+    margin: 0;
+    padding-left: 46px;
+    font-size: 13px;
+}
+
+.right-side-general {
+    width: 482px;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.left-side-general {
+    width: 50%;
+    height: 243px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.module {
+    display: flex;
+    flex-direction: column;
+    width: 258px;
+    height: 287px;
+    gap: 5px;
+    padding-top: 18px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-bottom: 22px;
+    box-shadow: 0px 4px 12px #C1C5C9;
+}
+
+.food-row-with-title {
+    display: flex;
+    justify-content: center;
+    height: 367.4px;
+    align-items: flex-end;
+    gap: 44px;
+}
+
+.savoury-sweet {
+    margin: 0;
+    font-size: 16px;
+}
+
+.title-module {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.web-division-d {
+    display: flex;
+    flex-direction: row;
+    padding-top: 58px;
+}
+
+.website-content-t {
+    gap: 76px;
+    padding-top: 42px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.menu-links {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-links:visited {
+    color: white;
+}
+
+.country-of-food {
+    margin: 0;
+}
+
+.country-of-food:hover {
+    text-decoration: underline;
+}
+
+.module-1-link {
+    text-decoration: none;
+    color: black;
+}
+
+.module-1-nolink {
+    text-decoration: none;
+    color: black;
+}
+
+.module-1-link:visited {
+    color: black;
+}
+
+.module-1-link:hover {
+    text-decoration: underline;
+}
+
+.module-link {
+    text-decoration: none;
+    color: black;
+}
+
+.module-link:hover {
+    text-decoration: underline;
+}
